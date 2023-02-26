@@ -7,7 +7,7 @@ const Navbar = () => {
      setNav(!nav)
    }
   return (
-    <nav className='bg-gray-200 p-4 fixed w-full top-0 shadow-lg'>
+    <nav className='bg-gray-200 p-4 fixed w-full top-0 shadow-lg w-full'>
         <div className='md:flex justify-between hidden'>
         <div className='flex px-2 items-center'>
             <h1 className='text-2xl md:text-3xl font-bold'>F8_Cloud.</h1>
@@ -20,7 +20,7 @@ const Navbar = () => {
             </ul>
             </div>
             <div className='flex'>
-                <button className='px-2'>Sign in</button>
+                <button className='px-2 bg-transparent text-black'>Sign in</button>
                 <button className='px-2 bg-indigo-600 text-white py-3 w-32 rounded-md'>Sign up</button>
             </div>
            
@@ -41,8 +41,8 @@ const Navbar = () => {
                 <li className='py-3 px-4 text-lg'>Pricing</li>
             </ul>
             <div className='w-full flex flex-col'>
-            <button className='px-2'>Sign in</button>
-                <button className='px-4 mx-4 bg-indigo-600 text-white py-4 rounded-md'>Sign up</button>
+            <button className='px-2 bg-transparent text-black'>Sign in</button>
+                <button className='px-4 mx-4 py-4 rounded-md'>Sign up</button>
             </div>
               
             </div>
