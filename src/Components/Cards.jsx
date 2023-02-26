@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaArrowRight } from 'react-icons/fa';
+
 const Cards = ({title, text, btn, icon}) => {
   return (
             
